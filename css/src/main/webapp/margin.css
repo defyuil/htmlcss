@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+#mg {border: 1px solid; 
+margin: 10px;}
+
+/* 1.margin의 각 방향별 지정 속성 */
+
+#mdr>li {border: 1px solid;}
+.mt {margin-top: 4em;}
+.mr {margin-right: 20%;
+text-align: right; }
+
+.mb {margin-bottom: 20px;}
+.ml {margin-left: 20%;}
+
+ /* 2.margin의 값 갯수별 지정 */
+ 
+form {border: 1px solid blue;
+width: 500px;
+/* margin-left: auto;
+margin-right: auto; */
+margin: 2em auto;} 
+ 
+#mgn>li {border: 1px solid;} 
+.mgn01 {margin: 50px;}
+.mgn02 {margin: 20px 50px;}
+.mgn03 {margin: 20px 50px 30px;}
+.mgn04 {margin: 20px 10% 50px 5%;}
+
+#itw {/* border: 1px solid red; */
+margin-bottom: 3em;
+margin-left: 1.5em;
+font-size: 30px;}
+
+#inbox {/* border: 1px solid red; */
+width: 450px;
+text-align:center;} 
+
+label {background-color: #ccc;
+text-transform: uppercase;
+font-weight: bold;
+font-size:1.2em;
+width:80px /* 적용불가 */;
+padding: 5px 20px;
+vertical-align:middle/* 
+ 인라인요소끼리의 수직정렬 */;
+color: #333;}
+
+.it {margin-right: 1em; 
+margin-bottom: 3em;}
+.bs {margin-left: 1em; 
+margin-bottom: 3em;}
+
+#itw {/* border:1px solid #f00; */
+width:230px;
+margin:30px auto; }
+
+#nm, #id {border:3px solid #ccc;
+ width: 80px;
+ padding: 5px;}
+ 
+#nm {margin-right: 5em;}
+
+#btn {/*  margin-top:30px;
+margin-left:auto;
+ margin-right: auto; */
+ margin:30px auto; 
+ padding:10px 50px; }
+
+
+
+
+
+
+
+
+
+
+
+
