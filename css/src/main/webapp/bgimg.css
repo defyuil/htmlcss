@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {	
+background-image:url("img/jpg/european.jpg")
+ , url("img/jpg/mountain.jpg");
+background-repeat: no-repeat, repeat-x; /* */
+background-position:right 50px, left bottom;
+ /*background-size: ;*/
+background-attachment:scroll,fixed; 
+}
+
+ol {background-color: #ccc;
+ margin: 5em 3em;
+ padding: 1.5em 2em;
+ width:500px;
+ font-weight: bold;}
+
+ul ol {background-color: transparent;
+ margin: 0 2em;
+ padding: 1.5em;
+ width:100%;;
+ font-weight: normal;}
+
+li {font-size: 20px;
+line-height: 2; }
+
+
+ /* background-attachment */
+#sec01 {overflow: hidden;}
+ 
+#sec01>p {border: 3px solid #d00; 
+ width: 30%; height: 400px; 
+/*  display: inline-block; */
+float: left;
+margin-right: 1.3%;
+background-image: url("img/jpg/shahbaz.jpg");
+background-size:cover;
+background-position: center center;
+overflow: auto; }
+
+.ba01 {background-attachment: scroll;}
+.ba02 {background-attachment: fixed;}
+.ba03 {background-attachment: local;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
