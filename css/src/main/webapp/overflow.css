@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+ /* overflow */
+#ov>li {border: 1px solid red;
+width: 45%; height: 250px;
+display: inline-block;
+vertical-align: top;
+margin: 5em 2%;}
+
+.vs {overflow: visible;}
+.hd {overflow: hidden;}
+.sc {overflow: scroll;}
+.at {overflow: auto;}
+
+.hd>img {height: 300px;
+ opacity:0.6 /* 요소의 불투명도(0~1사이의 값) */; }
+
+.hd:hover>img {height: 200px;
+opacity:1;
+transition:1s;}
+
+#ov:hover>.sc, #ov:hover>.at {height: 500px; }
+
+ /* 말줄임표 삼총사 */
+.el {border: 1px solid;
+ width: 400px; height:20px;
+ padding: 0.5em;
+ white-space: nowrap;
+ overflow: hidden; 
+ text-overflow: ellipsis;}
+
+.el:hover {background-color:#000;
+width: 1200px;
+color:#fff;  
+transition:1.2s;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
