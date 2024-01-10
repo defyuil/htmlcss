@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+table, th, td {border: 1px solid; }
+
+h2 {margin-top:3em;
+	color:#18b; }
+
+h2>i {font-size: 14px;
+font-style: normal;	}
+
+/* 1. stripe table */
+#tab01, #tab01 th, #tab01 td {
+border: none; } 
+
+#tab01 {width: 70%;}
+ 
+#tab01 th {background-color: #3a6;
+padding:17px 10px;
+text-align: left;
+color: #fff;}
+
+#tab01 th:nth-of-type(1) {
+	border-radius: 16px 0 0 0;}	
+#tab01 th:nth-of-type(3) {
+	border-radius: 0 16px 0 0;}
+
+#tab01 tr:nth-of-type(6)>td:nth-of-type(2) {
+	color: #f00;}
+
+#tab01 td {padding: 12px 10px;}
+ 
+#tab01 tr:nth-of-type(2n-1) {
+ /* A:nth-of-type(n)는 A중에서
+ n번째 요소를 지정하는 순서선택자. 
+ n은 수식 가능 */	
+background-color: #ccc;} 
+ 
+#tab01 tr:hover {
+background-color:#2da; 	
+cursor: pointer; } 
+ 
+  
+   /* 2. table-layout:fixed; */
+#tab02 {width: 900px;
+height: 600px; 
+table-layout: fixed; } 
+ 
+ 
+#div03, #div04 {/* border: 1px solid red; */
+ float: left;
+ margin: 2em 3em 2em 0;} 
+ 
+#div03 table {margin: 0 auto; }
+ 
+  /* 3. border-spacing */
+ #tab03 {border-spacing: 16px 10px;} 
+  
+  /* 4. border-collapse: collapse; */
+#tab04 {border-collapse: collapse;}
+ 
+#tab04 th, #tab04 td {padding: 10px;}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
